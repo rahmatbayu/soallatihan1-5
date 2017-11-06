@@ -26,6 +26,24 @@ int main(){
 		cout<<"Upah Lembur Yang Diterima Karyawan          : Rp  "<<ul<<endl;
 		cout<<"Pajak Yang Ditanggung Karyawan              : Rp  "<<pa<<endl;
 		cout<<"Total Gaji Bersih Yang Diterima Karyawan    : Rp  "<<gb<<endl;
+	}
+		else {
+		system,("cls");
+		cout<<""<<endl;
+		cout<<"   PROGRAM GAJI BBERSIH KARYAWAN"<<endl;
+		cout<<"   KARYAWAN TIDAK MENDAPAT LEMBUR"<<endl;
+		cout<<""<<endl;
+		gtot=gp*40;
+		pa=gtot*0.15;
+		gb=gtot-pa;
+		
+		cout<<"Lama Kerja Karyawan Dalam Seminggu          : "<<jk<<" Jam"<<endl;
+		cout<<"Total Lembur Karyawan                       : "<<le<<" (dalam seminggu)"<<endl;
+		cout<<"Gaji Perjam Yang Karyawan Terima            : Rp  "<<gp<<endl;
+		cout<<"Upah Lembur Yang Diterima Karyawan          : Rp  "<<ul<<endl;
+		cout<<"Pajak Yang Ditanggung Karyawan              : Rp  "<<pa<<endl;
+		cout<<"Total Gaji Bersih Yang Diterima Karyawan    : Rp  "<<gb<<endl;
 
 }
 }
+
