@@ -20,4 +20,14 @@ int main(){
 			
 			cout << " Jadi Luas Persegi Panjangnya Adalah   "<<L;
 		}
+		else if (pilih=='B'){
+			system("cls");
+			cout<<"  ||--Anda Memilih Mengitung Luas Segitiga--||"<<endl;
+			cout<<""<<endl;
+			cout<<"Input Alas Segitiga = "; cin>>al;
+			cout<<"Input Tinggi Segitiga = "; cin>>t;
+			L=0.5*al*t;
+			
+			cout << " Jadi Luas segitiganya Adalah   "<<L;
+		}
 }
