@@ -8,7 +8,7 @@ int main(){
 	cout<<"Input Bilangan : ";cin>>x;
 	cout<<""<<endl;
 	if (x < 0);
-}
-		
 	
-
+	
+		cout<<"yang anda input adalah bilangan negatif"<<endl;
+}
