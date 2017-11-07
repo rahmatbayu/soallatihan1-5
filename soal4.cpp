@@ -17,5 +17,11 @@ int main(){
 	{
 		cout<<"yang anda input adalah bilangan positif"<<endl;
 	}
+	
+	else
+	
+		cout<<"yang anda input adalah bilangan nol "<<endl;
+
+	return 0;
 		
 }
